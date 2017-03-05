@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA96DC061E6A761500E314AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DC051E6A761500E314AA /* AppDelegate.swift */; };
+		DA96DC081E6A761500E314AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DC071E6A761500E314AA /* ViewController.swift */; };
+		DA96DC0B1E6A761500E314AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96DC091E6A761500E314AA /* Main.storyboard */; };
+		DA96DC0D1E6A761500E314AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA96DC0C1E6A761500E314AA /* Assets.xcassets */; };
+		DA96DC101E6A761500E314AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96DC0E1E6A761500E314AA /* LaunchScreen.storyboard */; };
+		DA96DC1B1E6A761500E314AA /* TilatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DC1A1E6A761500E314AA /* TilatorTests.swift */; };
+		DA96DC261E6A761500E314AA /* TilatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DC251E6A761500E314AA /* TilatorUITests.swift */; };
+		DA96DC361E6C902C00E314AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DC351E6C902C00E314AA /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA96DC171E6A761500E314AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA96DBFA1E6A761400E314AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA96DC011E6A761400E314AA;
+			remoteInfo = Tilator;
+		};
+		DA96DC221E6A761500E314AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA96DBFA1E6A761400E314AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA96DC011E6A761400E314AA;
+			remoteInfo = Tilator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA96DC021E6A761500E314AA /* Tilator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tilator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA96DC051E6A761500E314AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA96DC071E6A761500E314AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA96DC0A1E6A761500E314AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA96DC0C1E6A761500E314AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA96DC0F1E6A761500E314AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA96DC111E6A761500E314AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA96DC161E6A761500E314AA /* TilatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA96DC1A1E6A761500E314AA /* TilatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilatorTests.swift; sourceTree = "<group>"; };
+		DA96DC1C1E6A761500E314AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA96DC211E6A761500E314AA /* TilatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA96DC251E6A761500E314AA /* TilatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilatorUITests.swift; sourceTree = "<group>"; };
+		DA96DC271E6A761500E314AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA96DC351E6C902C00E314AA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA96DBFF1E6A761400E314AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC131E6A761500E314AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC1E1E6A761500E314AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA96DBF91E6A761400E314AA = {
+			isa = PBXGroup;
+			children = (
+				DA96DC041E6A761500E314AA /* Tilator */,
+				DA96DC191E6A761500E314AA /* TilatorTests */,
+				DA96DC241E6A761500E314AA /* TilatorUITests */,
+				DA96DC031E6A761500E314AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA96DC031E6A761500E314AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA96DC021E6A761500E314AA /* Tilator.app */,
+				DA96DC161E6A761500E314AA /* TilatorTests.xctest */,
+				DA96DC211E6A761500E314AA /* TilatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA96DC041E6A761500E314AA /* Tilator */ = {
+			isa = PBXGroup;
+			children = (
+				DA96DC051E6A761500E314AA /* AppDelegate.swift */,
+				DA96DC071E6A761500E314AA /* ViewController.swift */,
+				DA96DC091E6A761500E314AA /* Main.storyboard */,
+				DA96DC351E6C902C00E314AA /* SettingsViewController.swift */,
+				DA96DC0C1E6A761500E314AA /* Assets.xcassets */,
+				DA96DC0E1E6A761500E314AA /* LaunchScreen.storyboard */,
+				DA96DC111E6A761500E314AA /* Info.plist */,
+			);
+			path = Tilator;
+			sourceTree = "<group>";
+		};
+		DA96DC191E6A761500E314AA /* TilatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA96DC1A1E6A761500E314AA /* TilatorTests.swift */,
+				DA96DC1C1E6A761500E314AA /* Info.plist */,
+			);
+			path = TilatorTests;
+			sourceTree = "<group>";
+		};
+		DA96DC241E6A761500E314AA /* TilatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA96DC251E6A761500E314AA /* TilatorUITests.swift */,
+				DA96DC271E6A761500E314AA /* Info.plist */,
+			);
+			path = TilatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA96DC011E6A761400E314AA /* Tilator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA96DC2A1E6A761500E314AA /* Build configuration list for PBXNativeTarget "Tilator" */;
+			buildPhases = (
+				DA96DBFE1E6A761400E314AA /* Sources */,
+				DA96DBFF1E6A761400E314AA /* Frameworks */,
+				DA96DC001E6A761400E314AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tilator;
+			productName = Tilator;
+			productReference = DA96DC021E6A761500E314AA /* Tilator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA96DC151E6A761500E314AA /* TilatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA96DC2D1E6A761500E314AA /* Build configuration list for PBXNativeTarget "TilatorTests" */;
+			buildPhases = (
+				DA96DC121E6A761500E314AA /* Sources */,
+				DA96DC131E6A761500E314AA /* Frameworks */,
+				DA96DC141E6A761500E314AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA96DC181E6A761500E314AA /* PBXTargetDependency */,
+			);
+			name = TilatorTests;
+			productName = TilatorTests;
+			productReference = DA96DC161E6A761500E314AA /* TilatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA96DC201E6A761500E314AA /* TilatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA96DC301E6A761500E314AA /* Build configuration list for PBXNativeTarget "TilatorUITests" */;
+			buildPhases = (
+				DA96DC1D1E6A761500E314AA /* Sources */,
+				DA96DC1E1E6A761500E314AA /* Frameworks */,
+				DA96DC1F1E6A761500E314AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA96DC231E6A761500E314AA /* PBXTargetDependency */,
+			);
+			name = TilatorUITests;
+			productName = TilatorUITests;
+			productReference = DA96DC211E6A761500E314AA /* TilatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA96DBFA1E6A761400E314AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Akshaya Muralidharan";
+				TargetAttributes = {
+					DA96DC011E6A761400E314AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DA96DC151E6A761500E314AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA96DC011E6A761400E314AA;
+					};
+					DA96DC201E6A761500E314AA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA96DC011E6A761400E314AA;
+					};
+				};
+			};
+			buildConfigurationList = DA96DBFD1E6A761400E314AA /* Build configuration list for PBXProject "Tilator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA96DBF91E6A761400E314AA;
+			productRefGroup = DA96DC031E6A761500E314AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA96DC011E6A761400E314AA /* Tilator */,
+				DA96DC151E6A761500E314AA /* TilatorTests */,
+				DA96DC201E6A761500E314AA /* TilatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA96DC001E6A761400E314AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA96DC101E6A761500E314AA /* LaunchScreen.storyboard in Resources */,
+				DA96DC0D1E6A761500E314AA /* Assets.xcassets in Resources */,
+				DA96DC0B1E6A761500E314AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC141E6A761500E314AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC1F1E6A761500E314AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA96DBFE1E6A761400E314AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA96DC081E6A761500E314AA /* ViewController.swift in Sources */,
+				DA96DC061E6A761500E314AA /* AppDelegate.swift in Sources */,
+				DA96DC361E6C902C00E314AA /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC121E6A761500E314AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA96DC1B1E6A761500E314AA /* TilatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96DC1D1E6A761500E314AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA96DC261E6A761500E314AA /* TilatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA96DC181E6A761500E314AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA96DC011E6A761400E314AA /* Tilator */;
+			targetProxy = DA96DC171E6A761500E314AA /* PBXContainerItemProxy */;
+		};
+		DA96DC231E6A761500E314AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA96DC011E6A761400E314AA /* Tilator */;
+			targetProxy = DA96DC221E6A761500E314AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA96DC091E6A761500E314AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA96DC0A1E6A761500E314AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA96DC0E1E6A761500E314AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA96DC0F1E6A761500E314AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA96DC281E6A761500E314AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA96DC291E6A761500E314AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA96DC2B1E6A761500E314AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tilator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tilator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA96DC2C1E6A761500E314AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tilator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tilator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA96DC2E1E6A761500E314AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TilatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TilatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tilator.app/Tilator";
+			};
+			name = Debug;
+		};
+		DA96DC2F1E6A761500E314AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TilatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TilatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tilator.app/Tilator";
+			};
+			name = Release;
+		};
+		DA96DC311E6A761500E314AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TilatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TilatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tilator;
+			};
+			name = Debug;
+		};
+		DA96DC321E6A761500E314AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TilatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TilatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tilator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA96DBFD1E6A761400E314AA /* Build configuration list for PBXProject "Tilator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA96DC281E6A761500E314AA /* Debug */,
+				DA96DC291E6A761500E314AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA96DC2A1E6A761500E314AA /* Build configuration list for PBXNativeTarget "Tilator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA96DC2B1E6A761500E314AA /* Debug */,
+				DA96DC2C1E6A761500E314AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA96DC2D1E6A761500E314AA /* Build configuration list for PBXNativeTarget "TilatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA96DC2E1E6A761500E314AA /* Debug */,
+				DA96DC2F1E6A761500E314AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA96DC301E6A761500E314AA /* Build configuration list for PBXNativeTarget "TilatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA96DC311E6A761500E314AA /* Debug */,
+				DA96DC321E6A761500E314AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA96DBFA1E6A761400E314AA /* Project object */;
+}
