@@ -15,6 +15,13 @@ The following required functionality is complete:
 
 *  User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 *  Settings page to change the default tip percentage.
+
+The following **additional** features are implemented:
+
+*  Keypad becomes the first responder
+*  Bill value remembered for 10 mins across app restarts
+*  Locale specific currency and thousands separator implemented 
+
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
