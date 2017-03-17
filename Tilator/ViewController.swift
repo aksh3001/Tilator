@@ -8,12 +8,22 @@
 
 import UIKit
 
+extension Double {
+    var asSeparatedLocaleCurrency:String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.locale = Locale.current
+        return formatter.string(from: self as NSNumber)!
+    }
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipSegCtrl: UISegmentedControl!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,10 +54,26 @@ class ViewController: UIViewController {
         
         let tip = bill * tipPercent
         
-        let totalAmt = bill + tip
+        let total = bill + tip
+
+        let tipStr = String(format: "%.2f", tip)
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", totalAmt)
+        let tipAmt = Double(tipStr) ?? 0
+        
+        tipLabel.text = tipAmt.asSeparatedLocaleCurrency
+        
+        let totStr = String(format: "%.2f", total)
+        
+        let totAmt = Double(totStr) ?? 0
+        
+        totalLabel.text = totAmt.asSeparatedLocaleCurrency
+        
+        let defaults = UserDefaults.standard
+        
+        defaults.set(billField.text,forKey:"billValue")
+        
+        defaults.synchronize()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -55,11 +81,24 @@ class ViewController: UIViewController {
         let defaults = UserDefaults.standard
         let selSegIndex = defaults.integer(forKey: "selectedSegIndex")
         tipSegCtrl.selectedSegmentIndex = selSegIndex
+        
+        let billVal = defaults.string(forKey: "billValue")
+        billField.text = billVal
+        Timer.scheduledTimer(timeInterval: 600, target:self, selector: #selector(ViewController.clearState), userInfo: nil, repeats: false)
         calculateTip(Any.self)
+    }
+    
+    
+    func clearState() {
+        let defaults = UserDefaults.standard
+        defaults.set("", forKey:"billValue")
+        defaults.synchronize()
+        viewWillAppear(true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        billField.becomeFirstResponder()
         let defaults = UserDefaults.standard
         let selSegIndex = defaults.integer(forKey: "selectedSegIndex")
         tipSegCtrl.selectedSegmentIndex = selSegIndex
